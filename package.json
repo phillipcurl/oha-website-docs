@@ -1,0 +1,12 @@
+{
+  "name": "oha-website-docs",
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "Phillip Curl <phillip.curl@ohiohospitals.org>",
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  }
+}
