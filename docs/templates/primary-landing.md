@@ -46,3 +46,8 @@ The cards section represents links to the secondary pages that are nested the cu
 
 ### Card Fields
 <Card-Fields />
+
+## Additional Notes
+::: tip
+This template displays a "Contacts" section on the page. To see how to add contacts to a page, [click here](../guide/adding-contacts.html).
+:::

@@ -6,4 +6,4 @@ Contact records are stored in OHA Connect to ensure a single source of truth for
 
 ## Navigate to the Page Form
 
-In order to add a contact, you must first navigate to the page you'd like to edit, and select the "Form" tab at the top of the edit page.
+In order to add a contact, you must first navigate to the page you'd like to edit, and select the "Form" tab at the top of the edit panel.
