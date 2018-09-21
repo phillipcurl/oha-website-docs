@@ -3,12 +3,14 @@ module.exports = {
   description: 'Documentation for www.ohiohospitals.org',
   serviceWorker: true,
   themeConfig: {
+    // repo: 'phillipcurl/oha-website-docs',
     // editLinks: true,
-    docsDir: 'docs',
+    // docsDir: 'docs',
     // label: 'English',
     // selectText: 'Languages',
-    // editLinkText: 'Edit this page on GitHub',
-    lastUpdated: 'Last Updated',
+    // editLinkText: 'Edit this page',
+    // lastUpdated: 'Last Updated',
+    searchMaxSuggestions: 15,
     serviceWorker: {
       updatePopup: {
         message: "New content is available.",
@@ -36,6 +38,38 @@ module.exports = {
       //   link: 'https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md'
       // }
     ],
+    //   sidebar: [{
+    //     title: 'Guide',
+    //     collapsable: true,
+    //     children: [
+    //       '',
+    //       'guide/adding-page',
+    //       'guide/page-metadata',
+    //       'guide/editing-content',
+    //       'guide/adding-contacts',
+    //       'guide/adding-images',
+    //       'guide/adding-resources'
+    //     ]
+    //   },
+    //   {
+    //     title: 'Page Templates',
+    //     collapsable: false,
+    //     children: [
+    //       '',
+    //       'home-page',
+    //       'primary-landing',
+    //       'secondary-landing',
+    //       'tertiary-a',
+    //       'tertiary-b',
+    //       'tertiary-c',
+    //       'tertiary-d',
+    //       'tertiary-e',
+    //       'hiin-a',
+    //       'hiin-b',
+    //       'hiin-c'
+    //     ]
+    //   }
+    // ],
     sidebar: {
       '/guide/': [{
         title: 'Guide',
@@ -45,7 +79,9 @@ module.exports = {
           'adding-page',
           'page-metadata',
           'editing-content',
-          'adding-contacts'
+          'adding-contacts',
+          'adding-images',
+          'adding-resources'
         ]
       }],
       '/templates/': [{
@@ -68,15 +104,4 @@ module.exports = {
       }]
     }
   }
-}
-
-function genSidebarConfig(title) {
-  return [{
-    title,
-    collapsable: false,
-    children: [
-      '',
-      'adding-contacts'
-    ]
-  }]
 }

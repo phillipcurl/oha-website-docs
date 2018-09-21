@@ -9,7 +9,7 @@
     </p>
     <img :src="$withBase('/screenshots/add-feature.png')" alt="Add a feature" style="max-width: 500px;">
     <p>
-      Now that your new feature has been created, follow the steps in the "Edit Feature" section below
+      Now that your new feature has been created, follow the steps in the <a href="#edit-feature">"Edit Feature"</a> section below
       for more information on configuring and editing the various feature fields.
     </p>
   </div>

@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h3>Edit Feature</h3>
+    <h3 id="edit-feature">Edit Feature</h3>
   </div>
 </template>

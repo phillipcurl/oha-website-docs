@@ -1,25 +1,37 @@
 # Primary Landing Page
 
+[[toc]]
+
 ## Overview
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam reprehenderit delectus eos soluta facere excepturi inventore provident impedit quod nemo qui explicabo, earum, ipsum deserunt. Sapiente illum expedita magnam.
 
+<img :src="$withBase('/screenshots/primary-landing.png')" alt="Primary landing page screenshot">
+
 ## Folder Structure
+
 ```
 .
-├─ Page Title
+├─ Primary Landing Page Title
 │  ├─ Feature
 │  └─ Cards
 ```
 
 ## Feature
-The feature is the main section at the top of the primary landing page. Only one feature can be displayed on the page, but the Feature folder can contain multiple 
+
+The feature is the main section at the top of the primary landing page. Only one feature can be displayed on the page, but the Feature folder can contain multiple
 
 <FeatureAdd />
 
 <FeatureEdit />
 
+## Cards Header
+
+The primary landing page contains a heading above the cards section that is meant to be customized on each of the pages. Unlike the feature and cards, this heading can be edited using the more traditional Kentico approach of checking the page out. From the admin panel, navigate to the page you'd like to update.
+
 ## Cards
-The feature is the main section at the top of the primary landing page. Only one feature can be displayed on the page, but the Feature folder can contain multiple 
+
+The cards section represents links to the secondary pages that are nested the current primary landing page. For example, The "About" primary landing page would contain a card linking to "About/Ohio-Hospitals", as it is directly below the "About" page. These cards
 
 <CardAdd />
 
