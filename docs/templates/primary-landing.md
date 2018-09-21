@@ -21,9 +21,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aliquam repreh
 
 The feature is the main section at the top of the primary landing page. Only one feature can be displayed on the page, but the Feature folder can contain multiple
 
-<FeatureAdd />
+### Add a Feature
+<Feature-Add />
 
-<FeatureEdit />
+### Edit a Feature
+<Feature-Edit />
+
+### Feature Fields
+<Feature-Fields />
 
 ## Cards Header
 
@@ -33,6 +38,11 @@ The primary landing page contains a heading above the cards section that is mean
 
 The cards section represents links to the secondary pages that are nested the current primary landing page. For example, The "About" primary landing page would contain a card linking to "About/Ohio-Hospitals", as it is directly below the "About" page. These cards
 
-<CardAdd />
+### Add a Card
+<Card-Add />
 
-<CardEdit />
+### Edit a Card
+<Card-Edit />
+
+### Card Fields
+<Card-Fields />
