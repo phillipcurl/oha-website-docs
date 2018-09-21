@@ -1,8 +1,7 @@
 {
-  "name": "VuePress",
-  "short_name": "VuePress",
-  "icons": [
-    {
+  "name": "OHA Website Documentation",
+  "short_name": "OHA Docs",
+  "icons": [{
       "src": "/icons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
