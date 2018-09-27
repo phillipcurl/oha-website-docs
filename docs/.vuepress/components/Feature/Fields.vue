@@ -24,7 +24,7 @@
     <ul>
       <li>Point One</li>
     </ul>
-    <h4>Revresed</h4>
+    <h4>Reversed</h4>
     <ul>
       <li>Point One</li>
     </ul>
